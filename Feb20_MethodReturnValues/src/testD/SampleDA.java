@@ -2,7 +2,7 @@ package testD;
 
 public class SampleDA {
 
-	
+	// nonstatic access modifier
      
 		public static void add(int a,int b ){  // public visible to all packages & class
 			System.out.println(a+b);
