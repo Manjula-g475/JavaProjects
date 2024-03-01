@@ -12,12 +12,11 @@ public class Demo3 {
 		else if(a>b){
 			System.out.println("b is greater");
 		}
-		else if(b<a){
-			System.out.println("b is lesser");
-		}
+		
 		 else if(a==b) {
 			System.out.println("a is equal to b");
 		 }
+	
 
 
 	}
