@@ -10,6 +10,8 @@ public class SampleA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Example of linked list
+		
 		List<Integer> linkedlist = new LinkedList<>();
 		List<String> arraylist = new ArrayList<>();
 		List<Integer> vectorlist = new Vector<>();
@@ -38,8 +40,8 @@ public class SampleA {
 		System.out.println(linkedlist);
 		
 		//index of 
-		System.out.println(linkedlist.indexOf(10));
-		System.out.println(linkedlist.indexOf(89));
+		System.out.println(linkedlist.indexOf(10));  //present value
+		System.out.println(linkedlist.indexOf(89)); //absent value
 		
 		
 		

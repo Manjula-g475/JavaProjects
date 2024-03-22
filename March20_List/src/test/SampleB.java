@@ -9,7 +9,7 @@ public class SampleB {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		List<Integer> a = new LinkedList<>();
+		List<Integer> a = new LinkedList<Integer>();
 		Integer [] b= {20,76,54,26,87,90,12,56};
 		
 		a.addAll(Arrays.asList(b));
@@ -22,8 +22,8 @@ public class SampleB {
 		System.out.println(a.addAll(Arrays.asList(20,76,45)));
 		
 		LinkedList<Integer> x= new LinkedList<Integer>();
-		/*x = (LinkedList)a.clone();
-		System.out.println(x);*/
+		x =(LinkedList)a.clone();
+		System.out.println(x);
 		
 		System.out.println(a.equals(Arrays.asList(20,76,54,26,87,90,12,56)));
 		System.out.println(a.equals(x));
